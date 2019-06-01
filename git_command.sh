@@ -14,3 +14,16 @@ git rev-list --objects --all \
 | $(command -v gnumfmt || echo numfmt) --field=2 --to=iec-i --suffix=B --padding=7 --round=nearest
 
 #delete file in hinstory
+git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD
+
+# keep your local change before pull
+git stash 
+
+# check stashed list
+git stash list
+
+# recover local change
+git stash pop
+
+# remove stash files
+git stash drop
