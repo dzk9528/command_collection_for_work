@@ -1,11 +1,11 @@
 1. remote transfer rsync
 
-```shell
+```bash
 rsync -arvP --exclude "file" source dst
 ```
 
 1. local transfer file and folder
 
-```shell
+```bash
 mv (-r) (-f) source dst
 ```

@@ -2,7 +2,7 @@
 
 1. use gshell to download folder from google drive with out zip it
 
-```shell
+```bash
 sudo apt-get install gshell
 ```
 
@@ -10,7 +10,7 @@ sudo apt-get install gshell
 
 3. gshell can download folder from google drive
 
-```shell
+```bash
 sudo gshell init
 
 gshell download --with-id 1C96RTSEG6ofRRuRHWjgw-afLZPokLdhC --recursive

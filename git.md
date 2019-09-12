@@ -1,14 +1,14 @@
 # Git Command
 1. get git size
 
-```shell
+```bash
 git gc
 git count-objects -vH
 ```
 
 2. show large file in history and delete
 
-```shell
+```bash
 cd you_git_repo_dir 
 
 git rev-list --objects --all \
@@ -25,19 +25,19 @@ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch large
 
 3. Save local change before pull
 
-```shell
+```bash
 git stash
 ```
 
 4. Remove last record in stash
 
-```shell
+```bash
 git stash drop
 ```
 
 5. Recover the content in stash
 
-```shell
+```bash
 git stash pop
 ```
 

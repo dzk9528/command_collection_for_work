@@ -1,7 +1,7 @@
 # JNI Command
 1. Cmake install dlib process
 
-```shell
+```bash
 # I assume that android-cmake is set on $PATH:
 cd \path\to\dlib\
 mkdir build

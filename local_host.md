@@ -2,12 +2,12 @@
 
 1. Check proccess in the command line for a specific port in ubuntu
 
-```shell
+```bash
 sudo netstat -lpn |grep :1111
 ```
 
 2. When information have 2222/name, run:
 
-```shell
+```bash
 kill 2222
 ```
